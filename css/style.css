@@ -1,0 +1,371 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/
+    2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footerfooter, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    background: #ffffff;
+    position: relative;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@font-face {
+font-family: 'Conv_FrutigerNeueLTW1G-Medium';
+    src: url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.eot');
+    src: local('☺'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.woff') format('woff'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.ttf') format('truetype'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_FrutigerNeueLTW1G-CnBook';
+    src: url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBook.eot');
+    src: local('☺'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBook.woff') format('woff'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBook.ttf') format('truetype'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBook.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_FrutigerNeueLTW1G-CnBlk';
+    src: url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBlk.eot');
+    src: local('☺'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBlk.woff') format('woff'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBlk.ttf') format('truetype'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-CnBlk.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_FrutigerNeueLTW1G-Book';
+    src: url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Book.eot');
+    src: local('☺'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Book.woff') format('woff'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Book.ttf') format('truetype'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/070318_bg.jpg') center top no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.wrapper_second {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/070318_bg2.jpg') center top no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.wrapper_third {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/070318_bg3.jpg') center top no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.wrapper_four {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/070318_bg4.jpg') center top no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.wrapper_fifth{
+    position: relative;
+    max-width: 414px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.wrapper_sixth {
+    position: relative;
+    max-width: 350px;
+    min-height: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/investments_content/background_image.png') center top no-repeat;
+    background-attachment:fixed;
+}
+
+.first-screen {
+    padding: 0 20px;
+    position: relative;
+}
+
+.first-screen-topup {
+    padding: 0 35px;
+    position: relative;
+}
+
+.heading_image {
+    margin-top: 22px;
+    margin-bottom: 10px;
+    max-width: 274px;
+    width: 100%;
+    height: auto;
+}
+
+.first-screen ul {
+    list-style: none;
+    margin-top: 9px;
+}
+
+.first-screen li {
+    background: url("../img/260218_bull.png") left 22% no-repeat;
+    padding-left: 15px;
+    margin-top: 9px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+h2 {
+    margin-top: 22px;
+    font-family: Conv_FrutigerNeueLTW1G-CnBook, Arial, sans-serif;
+    font-size: 37px;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h2 span {
+    font-family: Conv_FrutigerNeueLTW1G-CnBlk, Arial, sans-serif;
+}
+
+.wrapper_four p {
+    color: #202020;
+}
+
+.wrapper_fifth p {
+    color: #202020;
+}
+
+.paragraph {
+    font-size: 17px;
+}
+
+.cell-item {
+    font-size: 14px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 31px;
+    line-height: normal;
+}
+
+.footing{
+    margin-bottom: 20px;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.icon_container {
+    width: 50%;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.grey_line {
+    border: none;
+    color: #f0f2f4;
+    background-color: #f0f2f4;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    margin-top: 9px;
+}
+
+.logo {
+    display: inline-block;
+    width: 74px;
+    height: 26px;
+    margin-top: 45px;
+    background: url('../img/260218_logo.png') center bottom no-repeat;
+    background-size: 100%;
+    outline: none;
+    border: 0;
+}
+
+.logo.logo-dark {
+    background: url('../img/260218_logo2.png') center bottom no-repeat;
+    background-size: 100%;
+}
+
+.logo.logo-dark.logo-embedded{
+    position: absolute;
+    top: 44px;
+    right: 35px;
+    width: 88px;
+    height: 32px;
+}
+
+.wrapper-button.wrapper-button-second {
+    background-color: rgb(233, 64, 69);
+}
+
+.wrapper-button {
+    display: inline-block;
+    width: 100%;
+    margin-top: 28px;
+    background-color: rgb(255, 38, 38);
+    font-family: Conv_FrutigerNeueLTW1G-Medium, arial, sans-serif;
+    font-size: 18px;
+    line-height: 61px;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+.wrapper-button:hover {
+    background: #04254b;
+}
+
+.phone {
+    position: relative;
+    max-width: 273px;
+    width: 100%;
+    height: 437px;
+    margin: 30px auto 0;
+    text-align: center;
+    background: url('../img/070318_img1.png') center top no-repeat;
+    background-size: 100%;
+}
+
+.banner {
+    margin: 60px auto 0;
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 350px) {
+    h2 {
+        font-size: 23px;
+    }
+    
+    p,
+    .first-screen li {
+        font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    }
+    
+    .first-screen li {
+        margin-top: 10px;
+    }
+    
+    .wrapper-button {
+        font-size: 13px;
+    }
+    
+    .phone {
+        margin: 50px auto 0;
+    }
+}

@@ -1,0 +1,120 @@
+﻿/* 400 */
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  font-style: normal;
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-regular.eot');
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-regular.woff') format('woff'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-regular.ttf') format('truetype'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  font-style: normal;
+  src: url('/etc/fonts/rur-regular_.woff') format('woff'),
+    url('/etc/fonts/rur-regular_.ttf') format('truetype');
+  unicode-range: U+20BD;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  font-style: italic;
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-italic.eot');
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-italic.woff') format('woff'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-italic.ttf') format('truetype'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-italic.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: OpenSans;
+  font-style: normal;
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-600.eot');
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-600.woff') format('woff'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-600.ttf') format('truetype'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-600.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: OpenSans;
+  font-style: normal;
+  src: url('/etc/fonts/rur-semi_.woff') format('woff'),
+    url('/etc/fonts/rur-semi_.ttf') format('truetype');
+  unicode-range: U+20BD;
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: OpenSans;
+  font-style: italic;
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-600italic.eot');
+  src: url('/etc/fonts/open-sans-v14-latin_cyrillic-600italic.woff') format('woff'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-600italic.ttf') format('truetype'),
+    url('/etc/fonts/open-sans-v14-latin_cyrillic-600italic.svg#OpenSans')
+      format('svg');
+}
+
+.wrapper_sixth {
+    position: relative;
+    max-width: 350px;
+    min-height: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
+    color: #ffffff;
+    background: url('../img/investments_content/background_image.png') center top no-repeat;
+    background-attachment:fixed;
+}
+
+.phone-investments {
+    max-width: 212px;
+    width: 100%;
+    height: 217px;
+    margin-top: 67px;
+    margin-left: 80px ;
+    text-align: center;
+    background: url('../img/investments_content/mobileImage.png') center top no-repeat;
+    background-size: 100%;
+}
+
+.logo-investments {
+    margin-top: 40px;
+    width: 80px;
+    height: 30px;
+}
+.wrapper_sixth p {
+    margin-top: 0;
+}
+.wrapper_sixth .line3 {
+    font-size: 13px;
+    margin-top: 14px;
+    font-family: OpenSans, sans-serif;
+}
+
+.wrapper_sixth .first-screen .wrapper-button {
+    margin-top: -10px;
+    font-weight: 600;
+    font-family: OpenSans, sans-serif;
+    width: 48%;
+    line-height: 52px;
+}
+
+.wrapper_sixth .first-screen .heading_image {
+    margin-bottom: 10px;
+}
+.wrapper_sixth .title {
+    text-transform:uppercase;
+    font-size:20pt;
+    line-height: 24pt;
+}
+.wrapper_sixth .line1 {
+    margin-top: 15pt;
+}
+.wrapper_sixth .line2 {
+    font-weight:800;
+}
