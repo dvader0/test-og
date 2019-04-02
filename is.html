@@ -41,10 +41,16 @@
             window.location.reload(url);
             document.location.replace(url);
         }
-
-        if (!isMobile.iOS() && !isMobile.Android()) {
-            redirect("/");
+        var url = "/";
+        if (isMobile.iOS()) {
+            url = "https://itunes.apple.com/ru/app/%D0%B2%D1%82%D0%B124-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD/id472951966?mt=8";
+        } else if (isMobile.Android()) {
+            url = "android-app://ru.vtb24.mobilebanking.android/https/online.vtb.ru/i/is";
         }
+        redirect(url);
+       // if (!isMobile.iOS() && !isMobile.Android()) {
+       //     redirect("/");
+       // }
     </script>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/is.css"/>
@@ -54,12 +60,12 @@
 <!-- BODY -->
 <div class="wrapper_sixth">
     <div class="first-screen">
-        <a href="https://vtb.ru/app" class="logo logo-investments store-link"></a>
+        <a href="/" class="logo logo-investments store-link"></a>
         <p class="title line1" >Всего пара кликов,</p>
         <p class="title line2" >и Вы – инвестор</p>
         <p class="line3">Зайдите в ВТБ-Онлайн, чтобы<br> открыть брокерский счет</p>
         <div class="phone-investments"></div>
-        <a href="/" class="wrapper-button vtb-online-link">Зайти</a>
+        <a href="/" class="wrapper-button vtb-online-link">Войти</a>
         <a href="/" class="wrapper-button store-link">Скачать</a>
     </div>
   
