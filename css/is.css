@@ -1,4 +1,12 @@
 ﻿
+@font-face {
+font-family: 'Conv_FrutigerNeueLTW1G-Medium';
+    src: url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.eot');
+    src: local('☺'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.woff') format('woff'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.ttf') format('truetype'), url('../fonts/Neue_Frutiger/FrutigerNeueLTW1G-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .wrapper_sixth {
     position: relative;
     max-width: 350px;
@@ -34,14 +42,11 @@
 .wrapper_sixth .line3 {
     font-size: 13px;
     margin-top: 14px;
-    font-family: OpenSans, sans-serif;
 }
 
 .wrapper_sixth .first-screen .wrapper-button {
     margin-top: -10px;
     font-weight: 600;
-    font-family: OpenSans, sans-serif;
-    width: 48%;
     line-height: 52px;
 }
 
@@ -50,11 +55,11 @@
 }
 .wrapper_sixth .title {
     text-transform:uppercase;
-    font-size:20pt;
-    line-height: 24pt;
+    font-size:26px;
+    line-height: 30px;
 }
 .wrapper_sixth .line1 {
-    margin-top: 15pt;
+    margin-top: 20px;
 }
 .wrapper_sixth .line2 {
     font-weight:800;

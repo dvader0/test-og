@@ -152,19 +152,6 @@ font-family: 'Conv_FrutigerNeueLTW1G-Medium';
     overflow: hidden;
 }
 
-.wrapper_sixth {
-    position: relative;
-    max-width: 350px;
-    min-height: 560px;
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 10px;
-    font-family: Conv_FrutigerNeueLTW1G-Medium, Arial, sans-serif;
-    color: #ffffff;
-    background: url('../img/investments_content/background_image.png') center top no-repeat;
-    background-attachment:fixed;
-}
-
 .first-screen {
     padding: 0 20px;
     position: relative;
