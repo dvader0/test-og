@@ -1,72 +1,10 @@
-﻿
-/* 400 */
-@font-face {
-  font-weight: 400;
-  font-family: OpenSans;
-  font-style: normal;
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-regular.eot');
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-regular.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-regular.ttf') format('truetype'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-regular.svg#OpenSans') format('svg');
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: OpenSans;
-  font-style: normal;
-  src: url('/etc/designs/vtb24-online/static/fonts/rur-regular_.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/rur-regular_.ttf') format('truetype');
-  unicode-range: U+20BD;
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: OpenSans;
-  font-style: italic;
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-italic.eot');
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-italic.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-italic.ttf') format('truetype'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-italic.svg#OpenSans') format('svg');
-}
-
-@font-face {
-  font-weight: 600;
-  font-family: OpenSans;
-  font-style: normal;
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600.eot');
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600.ttf') format('truetype'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600.svg#OpenSans') format('svg');
-}
-
-@font-face {
-  font-weight: 600;
-  font-family: OpenSans;
-  font-style: normal;
-  src: url('/etc/designs/vtb24-online/static/fonts/rur-semi_.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/rur-semi_.ttf') format('truetype');
-  unicode-range: U+20BD;
-}
-
-@font-face {
-  font-weight: 600;
-  font-family: OpenSans;
-  font-style: italic;
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600italic.eot');
-  src: url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600italic.woff') format('woff'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600italic.ttf') format('truetype'),
-    url('/etc/designs/vtb24-online/static/fonts/open-sans-v14-latin_cyrillic-600italic.svg#OpenSans')
-      format('svg');
-}
-
-.wrapper_sixth {
+﻿.wrapper_sixth {
     position: relative;
     max-width: 350px;
     min-height: 560px;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 10px;
-    font-family: OpenSans, sans-serif;
     color: #ffffff;
     background: url('../img/investments_content/background_image.png') center top no-repeat;
     background-attachment:fixed;
@@ -90,7 +28,6 @@
 }
 .wrapper_sixth p {
     margin-top: 0;
-    font-family: OpenSans, sans-serif;
 }
 .wrapper_sixth .line3 {
     font-size: 13px;
