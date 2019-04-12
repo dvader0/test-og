@@ -11,9 +11,9 @@
     <meta property="og:image:alt" content="promo image"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
-    <meta property="vk:image" content="https://reizy.github.io/test-og/img/investments_content/deeplink_invest_vk_537x240.jpg">
-    <meta property="twitter:image" content="https://reizy.github.io/test-og/img/investments_content/deeplink_invest_nog_600.jpg">
-    <meta property="og:image" content="https://reizy.github.io/test-og/img/investments_content/investments_og2.jpg"/>
+    <meta property="vk:image" content="https://online.vtb.ru/i/img/investments_content/deeplink_invest_vk_537x240.jpg">
+    <meta property="twitter:image" content="https://online.vtb.ru/i/img/investments_content/deeplink_invest_nog_600.jpg">
+    <meta property="og:image" content="https://online.vtb.ru/i/img/investments_content/investments_og.jpg"/>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
@@ -43,23 +43,23 @@
             location = url;
             document.location.href = url;
             location.replace(url);
-            window.location.reload(url);
             document.location.replace(url);
         }
-        var url = "/";
-        if (isMobile.iOS()) {
-            url = "https://itunes.apple.com/ru/app/%D0%B2%D1%82%D0%B124-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD/id472951966?mt=8";
-        } else if (isMobile.Android()) {
-            url = "android-app://ru.vtb24.mobilebanking.android/https/online.vtb.ru/i/is";
+
+        function getStoreLink() {
+            if (isMobile.iOS()) {
+                return "https://itunes.apple.com/ru/app/%D0%B2%D1%82%D0%B124-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD/id472951966?mt=8";
+            } else if (isMobile.Android()) {
+                return "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=ru.vtb24.mobilebanking.android";
+            } else {
+                return "/";
+            }
         }
-       //redirect(url);
-       // if (!isMobile.iOS() && !isMobile.Android()) {
-       //     redirect("/");
-       // }
+	    redirect(getStoreLink());
+        window.close();
     </script>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/is.css"/>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"/>
 </head>
 <body>
 <!-- BODY -->
@@ -79,18 +79,13 @@
 </body>
 <script>
     window.onload = function () {
+	    redirect(getStoreLink());
         if (isMobile.iOS() || isMobile.Android()) {
             var links = document.getElementsByClassName("store-link");
             for (i = 0; i < links.length; i++) {
                 var link = links[i];
                 link.onclick = function () {
-                    var url;
-                    if (isMobile.iOS()) {
-                        url = "https://itunes.apple.com/ru/app/%D0%B2%D1%82%D0%B124-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD/id472951966?mt=8";
-                    } else if (isMobile.Android()) {
-                        url = "android-app://ru.vtb24.mobilebanking.android/https/online.vtb.ru/i/is";
-                    }
-                    this.href = url;
+                    this.href = getStoreLink();
                     return true;
                 };
             }
